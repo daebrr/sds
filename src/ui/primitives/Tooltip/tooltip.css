@@ -24,7 +24,8 @@
         rotate(var(--rotation));
     }
     &:last-child {
-      fill: var(--sds-color-background-default-default);
+      fill: var(var(--sds-color-background-positive-hover));
+      /*Swapping out the color for a test --sds-color-background-default-default */
       transform: translate(
           calc(var(--offset-x) + var(--offset-border-x)),
           calc(var(--offset-y) + var(--offset-border-y))
